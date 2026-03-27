@@ -19,7 +19,7 @@ body {
     color: #333;
 }
 
-/* HEADER IMPACTO */
+/* HEADER */
 .hero {
     background: linear-gradient(135deg, var(--azul-oscuro), var(--azul));
     color: white;
@@ -37,7 +37,7 @@ body {
     margin-top: 10px;
 }
 
-/* BOTONES */
+/* BOTONES HERO */
 .botones a {
     display: inline-block;
     margin: 10px;
@@ -84,6 +84,22 @@ h2 {
 
 .card:hover {
     transform: translateY(-5px);
+}
+
+/* BOTONES PROYECTOS */
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 12px;
+    background: var(--azul);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.card a:hover {
+    background: var(--azul-oscuro);
 }
 
 /* CONTACTO */
@@ -134,8 +150,8 @@ footer {
     <h2>Logros Clave</h2>
     <ul>
         <li>Incremento del 60% en productividad en procesos industriales</li>
-        <li>Optimización de mantenimiento preventivo en taller</li>
-        <li>Implementación de modelos de Machine Learning</li>
+        <li>Optimización de mantenimiento preventivo</li>
+        <li>Aplicación de modelos de Machine Learning en análisis de datos</li>
     </ul>
 </section>
 
@@ -158,27 +174,31 @@ footer {
     <h2>Proyectos</h2>
 
     <div class="proyectos">
+
         <div class="card">
-    <h3>Mantenimiento Predictivo</h3>
-    <p>Modelo ML para predecir fallas en maquinaria industrial.</p>
-    <a href="https://github.com/victor-ortega-rivera/predictive-maintenance-ml" target="_blank">
-        Ver proyecto
-    </a>
-</div>
+            <h3>Mantenimiento Predictivo</h3>
+            <p>Modelo de Machine Learning para predecir fallas en maquinaria industrial usando datos de sensores.</p>
+            <a href="https://github.com/victor-ortega-rivera/predictive-maintenance-ml" target="_blank">
+                Ver proyecto
+            </a>
+        </div>
 
         <div class="card">
             <h3>Modelo Predictivo</h3>
-            <p>Predicción de fallas usando Machine Learning.</p>
+            <p>Desarrollo de modelos de regresión y clasificación aplicados a datos industriales.</p>
+            <a href="#">Próximamente</a>
         </div>
 
         <div class="card">
             <h3>Análisis de Datos</h3>
-            <p>Exploración y visualización con Python.</p>
+            <p>Exploración, limpieza y visualización de datos con Python y Pandas.</p>
+            <a href="#">Próximamente</a>
         </div>
 
         <div class="card">
             <h3>Automatización</h3>
-            <p>Optimización de procesos industriales.</p>
+            <p>Optimización de procesos industriales mediante soluciones automatizadas.</p>
+            <a href="#">Próximamente</a>
         </div>
 
     </div>
